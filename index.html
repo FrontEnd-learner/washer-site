@@ -13,6 +13,52 @@
 
     <main class="main-content">
         <div class="container">
+            <h1 class="visually-hidden">Washing machine interface</h1>
+
+            <ul class="washing-mode-list">
+                <li class="washing-mode-item washing-mode-item-active">
+                    <a class="washing-mode-link" href="#">Synthetic</a>
+                </li>
+                <li class="washing-mode-item">
+                    <a class="washing-mode-link" href="#">Wool</a>
+                </li>
+                <li class="washing-mode-item">
+                    <a class="washing-mode-link" href="#">Denim</a>
+                </li>
+                <li class="washing-mode-item">
+                    <a class="washing-mode-link" href="#">Silk</a>
+                </li>
+                <li class="washing-mode-item">
+                    <a class="washing-mode-link" href="#">Linen</a>
+                </li>
+            </ul>
+
+            <p class="washing-mode-notice">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis minus quis ab incidunt.</p>
+
+            <div class="washing-mode-info">
+                <button class="button button-prev" type="button">
+                    <img class="button-img" src="img/icon-left.svg" alt="img" width="30" height="30">
+                </button>
+                <button class="button button-next" type="button">
+                    <img class="button-img" src="img/icon-right.svg" alt="img" width="30" height="30">
+                </button>
+
+                <button class="button-start" type="button">Start</button>
+                <dl class="washing-mode-status">
+                    <div class="washing-mode-status-item washing-mode-status-item-timer">
+                        <dt class="washing-mode-status-heading">Timer</dt>
+                        <dd class="washing-mode-status-value">45 min</dd>
+                    </div>
+                    <div class="washing-mode-status-item washing-mode-status-item-temp">
+                        <dt class="washing-mode-status-heading">Temperature</dt>
+                        <dd class="washing-mode-status-value">Cool</dd>
+                    </div>
+                    <div class="washing-mode-status-item washing-mode-status-item-load">
+                        <dt class="washing-mode-status-heading">Load</dt>
+                        <dd class="washing-mode-status-value">Medium</dd>
+                    </div>
+                </dl>
+            </div>
         </div>
     </main>
     <script src="js/main.js"></script>
